@@ -1,0 +1,291 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.formclass {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: black;
+    width: 100%;
+    height: 110px;
+    z-index: 999;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    width: 1.0625em;
+    height: 1.0625em;
+}
+
+.satauri {
+    text-align: center;
+    font-size: 40px;
+}
+
+h4 {
+    height: 0px;
+    margin-top: 0px;
+    animation-name: satauri;
+    animation-duration: 1s;
+    animation-delay: 0.001ms;
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+#navigation1 .dropdown {
+    z-index: 999;
+    position: absolute;
+    background: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    top: 100%;
+    width: 100px;
+    display: none;
+    margin: -39px 0px 0px 8px !important;
+    list-style-type: none;
+}
+
+#navigation1 #li22:hover .dropdown {
+    display: block;
+}
+
+#navigation1 {
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+#navigation1 .dropdown li a {
+    margin-left: -32px;
+    color: black;
+}
+
+#navigation1 .dropdown li a:hover {
+    font-size: 17px !important;
+    font-weight: bolder;
+}
+
+.hrclass {
+    height: 1px;
+    background-color: black;
+    width: 139px;
+    margin-left: -41px;
+    border-radius: 5px;
+    margin-bottom: -1px;
+    margin-top: 2px;
+    opacity: 0.3;
+}
+
+
+/* #li22 .dropdown li a {
+    border-bottom: 1px solid black;
+} */
+
+
+/* #li22 .dropdown li {
+    border-bottom: 1px solid black;
+    border-bottom-height: 50px;
+} */
+
+
+/* body div .navigacia:hover {
+    letter-spacing: 1px;
+    font-size: 25px;
+} */
+
+
+/*  */
+
+
+/*  */
+
+@keyframes satauri {
+    0% {
+        opacity: 0;
+        letter-spacing: 11px;
+    }
+    10% {
+        opacity: 0.1;
+        letter-spacing: 10px;
+    }
+    20% {
+        opacity: 0.2;
+        letter-spacing: 9px;
+    }
+    30% {
+        opacity: 0.3;
+        letter-spacing: 8px;
+    }
+    40% {
+        opacity: 0.4;
+        letter-spacing: 7px;
+    }
+    50% {
+        opacity: 0.5;
+        letter-spacing: 6px;
+    }
+    60% {
+        opacity: 0.6;
+        letter-spacing: 5px;
+    }
+    70% {
+        opacity: 0.7;
+        letter-spacing: 4px;
+    }
+    80% {
+        opacity: 0.8;
+        letter-spacing: 3px;
+    }
+    90% {
+        opacity: 0.9;
+        letter-spacing: 2px;
+    }
+    100% {
+        opacity: 1;
+        letter-spacing: normal;
+    }
+}
+
+#shaviferi {
+    color: black;
+}
+
+.hr1 {
+    border-radius: 3px;
+    background: black;
+    width: 100%;
+    height: 5px;
+    margin-top: 0px;
+}
+
+.ikonkebiregistracia {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    height: 3.1875em;
+    width: 263px;
+}
+
+.ikonkebi {
+    display: flex;
+    width: 3.1875em;
+    height: 1.0625em;
+}
+
+.registracia {
+    position: relative;
+    left: 149px;
+    top: 3px;
+}
+
+.divnavigacia {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+}
+
+.navigacia {
+    font-size: 20px;
+    padding: 10px 10px 0px 10px;
+}
+
+footer {
+    background-color: black;
+    position: relative;
+    top: calc(100vh - 85px);
+    left: 0px;
+    width: 100%;
+    height: 96px;
+}
+
+.divfooter {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 65px;
+}
+
+.about {
+    padding: 0px 30px 0px 0px;
+}
+
+.footercontact {
+    padding: 0px 30px 0px 0px;
+}
+
+.tetriferi {
+    color: white;
+}
+
+.sakontaqtoinformacia {
+    position: absolute;
+}
+
+
+/* .mtavaridivi{
+    height: calc(100vh - 85px);
+} */
+
+.produxialine {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.produqcia1 {
+    width: 180px;
+    height: 147px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    border-color: black;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0px;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+
+.button {
+    left: 0;
+    display: flex;
+    align-content: space-between;
+    widows: 30px;
+    height: 20px;
+    position: relative;
+    top: 150px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.produxialine1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}

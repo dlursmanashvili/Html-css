@@ -1,0 +1,383 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: black;
+    width: 100%;
+    height: 110px;
+    z-index: 999;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    width: 1.0625em;
+    height: 1.0625em;
+}
+
+.satauri {
+    text-align: center;
+    font-size: 40px;
+}
+
+h4 {
+    height: 0px;
+    margin-top: 0px;
+    animation-name: satauri;
+    animation-duration: 1s;
+    animation-delay: 0.001ms;
+}
+
+@keyframes satauri {
+    0% {
+        opacity: 0;
+        letter-spacing: 11px;
+    }
+    10% {
+        opacity: 0.1;
+        letter-spacing: 10px;
+    }
+    20% {
+        opacity: 0.2;
+        letter-spacing: 9px;
+    }
+    30% {
+        opacity: 0.3;
+        letter-spacing: 8px;
+    }
+    40% {
+        opacity: 0.4;
+        letter-spacing: 7px;
+    }
+    50% {
+        opacity: 0.5;
+        letter-spacing: 6px;
+    }
+    60% {
+        opacity: 0.6;
+        letter-spacing: 5px;
+    }
+    70% {
+        opacity: 0.7;
+        letter-spacing: 4px;
+    }
+    80% {
+        opacity: 0.8;
+        letter-spacing: 3px;
+    }
+    90% {
+        opacity: 0.9;
+        letter-spacing: 2px;
+    }
+    100% {
+        opacity: 1;
+        letter-spacing: normal;
+    }
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+#navigation1 .dropdown {
+    z-index: 999;
+    position: absolute;
+    background: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    top: 100%;
+    width: 100px;
+    display: none;
+    margin: -39px 0px 0px 8px !important;
+    list-style-type: none;
+}
+
+#navigation1 #li22:hover .dropdown {
+    display: block;
+}
+
+#navigation1 {
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+#navigation1 .dropdown li a {
+    margin-left: -32px;
+    color: black;
+}
+
+#navigation1 .dropdown li a:hover {
+    font-size: 17px !important;
+    font-weight: bolder;
+}
+
+#li22 .dropdown li a {
+    border-bottom: 1px solid black;
+}
+
+#li22 .dropdown li {
+    border-bottom: 1px solid black;
+}
+
+
+/* body div .navigacia:hover {
+    letter-spacing: 1px;
+    font-size: 25px;
+} */
+
+
+/*  */
+
+
+/*  */
+
+#shaviferi {
+    color: black;
+}
+
+.ikonkebi {
+    display: flex;
+    width: 3.1875em;
+    height: 1.0625em;
+}
+
+.hr1 {
+    border-radius: 3px;
+    background: black;
+    width: 100%;
+    height: 5px;
+    margin-top: 0px;
+}
+
+.ikonkebiregistracia {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    height: 3.1875em;
+    width: 115px;
+}
+
+.registracia {
+    position: relative;
+    left: 21px;
+    top: 1px;
+}
+
+.divnavigacia {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+}
+
+.navigacia {
+    font-size: 20px;
+    padding: 10px 10px 0px 10px;
+}
+
+footer {
+    background-color: black;
+    position: relative;
+    top: calc(100vh - 85px);
+    left: 0px;
+    width: 100%;
+    height: 85px;
+}
+
+.divfooter {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 65px;
+}
+
+.about {
+    padding: 0px 30px 0px 0px;
+}
+
+.footercontact {
+    padding: 0px 30px 0px 0px;
+}
+
+.tetriferi {
+    color: white;
+}
+
+.sakontaqtoinformacia {
+    position: absolute;
+}
+
+
+/* .mtavaridivi{
+    height: calc(100vh - 85px);
+} */
+
+.suratebidaagwera {
+    width: calc(30% + 50%);
+    height: 800px;
+    display: flex;
+    justify-content: start;
+    padding: 0px 10%;
+}
+
+.suratebidiv {
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: start;
+}
+
+.vertikaluradsuratebi {
+    display: flex;
+    flex-direction: column;
+}
+
+.patarasuratebi {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+#mtavarisurati {
+    height: 530px;
+    width: 500px;
+    border: black solid 1px;
+    margin: 5px 0px 0px 10px;
+}
+
+.surticlasi1 {
+    width: 60px;
+    height: 60px;
+}
+
+.mtavarisurati {
+    height: 530px !important;
+    width: 500px !important;
+    /* border: black solid 1px; */
+    margin: 5px 0px 0px 10px;
+}
+
+.yidvadadamateba {
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(143, 132, 111);
+    margin-top: 30px;
+}
+
+.gilakebi {
+    background-color: teal;
+    border-radius: 7px;
+    border: 1px solid teal;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+}
+
+
+/* .ganvadeba{
+    
+    left: 280px;
+    top: -400px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 340px;
+} */
+
+
+/* .suratebisgverdit{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+
+
+/* .raodenobadagilakebi{
+    width: 250px;
+    height: 340px;
+
+}
+.ganvadebagilakebi{
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    margin-top: 25px;
+}
+ */
+
+#pirvelibank {
+    width: 235px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+#meorebank {
+    width: 235px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+#gikalebizomebi {
+    background-color: teal;
+    border-radius: 7px;
+    border: 1px solid teal;
+    margin-top: 10px;
+    text-align: center;
+    width: 40px;
+    height: 37px;
+}
+
+#gikalebizomebi:hover {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    height: 45px;
+    opacity: 0.5;
+}
+
+.bankebi1:hover {
+    border-color: hsl(14, 100%, 53%) !important;
+}
+
+.bankebi2:hover {
+    border-color: red !important;
+}
+
+.bankebi3:hover {
+    border-color: rgb(50, 115, 220) !important;
+}
+
+.gilakebi:hover {
+    color: wheat;
+}
+
+.maxasiateblebi {
+    margin: 43px 0px 0px 28px;
+    width: 125px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.GasaziarebeliIconebi {
+    font-size: 25px !important;
+}

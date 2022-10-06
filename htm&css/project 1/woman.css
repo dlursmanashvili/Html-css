@@ -1,0 +1,700 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: black;
+    width: 100%;
+    height: 110px;
+    z-index: 999;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    width: 1.0625em;
+    height: 1.0625em;
+}
+
+.satauri {
+    text-align: center;
+    font-size: 40px;
+}
+
+h4 {
+    height: 0px;
+    margin-top: 0px;
+    animation-name: satauri;
+    animation-duration: 1s;
+    animation-delay: 0.001ms;
+}
+
+
+/*  */
+
+#navigation1 .dropdown {
+    z-index: 999;
+    position: absolute;
+    background: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    top: 100%;
+    width: 100px;
+    display: none;
+    margin: -39px 0px 0px 8px !important;
+    list-style-type: none;
+}
+
+#navigation1 #li22:hover .dropdown {
+    display: block;
+}
+
+#navigation1 {
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+#navigation1 .dropdown li a {
+    margin-left: -32px;
+    color: black;
+}
+
+#navigation1 .dropdown li a:hover {
+    font-size: 17px !important;
+    font-weight: bolder;
+}
+
+.registracia {
+    position: relative;
+    left: 149px;
+    top: 3px;
+}
+
+.formclass {
+    display: flex;
+    flex-direction: row;
+}
+
+.ikonkebiregistracia {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    height: 3.1875em;
+    width: 263px;
+}
+
+.hrclass {
+    height: 1px;
+    background-color: black;
+    width: 139px;
+    margin-left: -41px;
+    border-radius: 5px;
+    margin-bottom: -1px;
+    margin-top: 2px;
+    opacity: 0.3;
+}
+
+
+/* #li22 .dropdown li a {
+    border-bottom: 1px solid black;
+}
+
+#li22 .dropdown li {
+    border-bottom: 1px solid black;
+} */
+
+
+/*  */
+
+
+/*  */
+
+@keyframes satauri {
+    0% {
+        opacity: 0;
+        letter-spacing: 11px;
+    }
+    10% {
+        opacity: 0.1;
+        letter-spacing: 10px;
+    }
+    20% {
+        opacity: 0.2;
+        letter-spacing: 9px;
+    }
+    30% {
+        opacity: 0.3;
+        letter-spacing: 8px;
+    }
+    40% {
+        opacity: 0.4;
+        letter-spacing: 7px;
+    }
+    50% {
+        opacity: 0.5;
+        letter-spacing: 6px;
+    }
+    60% {
+        opacity: 0.6;
+        letter-spacing: 5px;
+    }
+    70% {
+        opacity: 0.7;
+        letter-spacing: 4px;
+    }
+    80% {
+        opacity: 0.8;
+        letter-spacing: 3px;
+    }
+    90% {
+        opacity: 0.9;
+        letter-spacing: 2px;
+    }
+    100% {
+        opacity: 1;
+        letter-spacing: normal;
+    }
+}
+
+#shaviferi {
+    color: black;
+}
+
+.formclass {
+    display: flex;
+    flex-direction: row;
+}
+
+.ikonkebi {
+    display: flex;
+    width: 3.1875em;
+    height: 1.0625em;
+}
+
+.hr1 {
+    border-radius: 3px;
+    background: black;
+    width: 100%;
+    height: 5px;
+    margin-top: 0px;
+}
+
+.ikonkebiregistracia {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    height: 3.1875em;
+    width: 263px;
+}
+
+.divnavigacia {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+}
+
+.navigacia {
+    font-size: 20px;
+    padding: 10px 10px 0px 10px;
+}
+
+footer {
+    background-color: black;
+    position: relative;
+    top: calc(100vh - 650px);
+    left: 0px;
+    width: 100%;
+    height: 85px;
+}
+
+.divfooter {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 65px;
+}
+
+.about {
+    padding: 0px 30px 0px 0px;
+}
+
+.footercontact {
+    padding: 0px 30px 0px 0px;
+}
+
+.tetriferi {
+    color: white;
+}
+
+.sakontaqtoinformacia {
+    position: absolute;
+}
+
+
+/* .mtavaridivi{
+    height: calc(100vh - 85px);
+} */
+
+.produxialine {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.produqcia1 {
+    width: 180px;
+    height: 147px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    border-color: black;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0px;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+
+
+/* opacity: 0.6;
+    animation-name: animacia;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    transition-property: background;
+    transition-duration: 1s; */
+
+
+/* @keyframes animacia{
+    0%   { 
+        opacity: 0.6;
+    background-color: black;
+    }
+  100% {
+       opacity: 1;
+       background-color: black;
+
+    }
+} */
+
+button:hover {
+    opacity: 1;
+}
+
+.button {
+    left: 0;
+    display: flex;
+    align-content: space-between;
+    widows: 30px;
+    height: 20px;
+    position: relative;
+    top: 150px;
+}
+
+.produxialine1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*   */
+
+@media screen and (min-width: 550px) and (max-width: 900px) {
+    .divnavigacia {
+        display: flex;
+        justify-content: space-around;
+        width: 66%;
+        height: 40px;
+        /* margin-right: -219px; */
+        /* position: relative; */
+        /* top: 0px; */
+        /* left: 146px; */
+        margin: 0 auto;
+    }
+    #dashoreba {
+        /* font-size: 5px !important; */
+        /* font-size: 12px !important; */
+        color: black;
+    }
+    #navigaciis-serchi {
+        border-radius: 10px;
+        margin-top: 5px;
+        height: 15px;
+        width: 89px;
+    }
+    .ikonkebi {
+        display: flex;
+        width: 3.1875em;
+        margin-left: 67px;
+        height: 1.0625em;
+    }
+    #chamoweva {
+        /* margin-top: 6px; */
+        color: black;
+    }
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    .divnavigacia {
+        display: flex;
+        justify-content: space-around;
+        width: 66%;
+        height: 40px;
+        /* margin-right: -219px; */
+        /* position: relative; */
+        /* top: 0px; */
+        /* left: 146px; */
+        margin: 0 auto;
+    }
+    #navigaciis-serchi {
+        border-radius: 10px;
+        margin-top: 5px;
+        height: 15px;
+        width: 80px;
+        height: 11px !important;
+    }
+    .ikonkebi {
+        display: flex;
+        width: 3.1875em;
+        margin-left: 67px;
+        height: 1.0625em;
+    }
+    .navigacia {
+        font-size: 13px;
+    }
+    #chamoweva {
+        margin-top: 6px;
+        color: black;
+    }
+    h4 {
+        height: 0px;
+        margin-top: 0px;
+        animation-name: satauri;
+        animation-duration: 1s;
+        animation-delay: 0.001ms;
+        font-size: 20px;
+    }
+    .ikonkebi {
+        display: flex;
+        width: 3.1875em;
+        margin-left: 88px !important;
+        height: 1.0625em;
+    }
+    .registracia {
+        position: relative;
+        left: 149px;
+        top: 0px;
+        font-size: 15px;
+    }
+    #dashoreba {
+        /* font-size: 5px !important; */
+        font-size: 12px !important;
+        color: black;
+    }
+    #chamoweva2 {
+        margin-top: 1px;
+        color: black;
+    }
+    .fa-user-o:before {
+        font-size: 14px;
+        content: "\f2c0";
+    }
+}
+
+
+/*  */
+
+
+/*  */
+
+.fa-user-o:before {
+    color: black;
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+@media screen and (min-width: 350px) and (max-width: 450px) {
+    .divnavigacia {
+        display: flex;
+        justify-content: space-around;
+        width: 66%;
+        height: 40px;
+        /* margin-right: -219px; */
+        /* position: relative; */
+        /* top: 0px; */
+        /* left: 146px; */
+        margin: 0 auto;
+    }
+    #navigaciis-serchi {
+        border-radius: 10px;
+        margin-top: 5px;
+        height: 15px;
+        width: 63px;
+        height: 11px !important;
+    }
+    .ikonkebi {
+        display: flex;
+        width: 3.1875em;
+        margin-left: 67px;
+        height: 1.0625em;
+    }
+    .navigacia {
+        font-size: 13px;
+    }
+    #chamoweva {
+        margin-top: 6px;
+        color: black;
+    }
+    h4 {
+        height: 0px;
+        margin-top: 0px;
+        animation-name: satauri;
+        animation-duration: 1s;
+        animation-delay: 0.001ms;
+        font-size: 20px;
+    }
+    .ikonkebi {
+        display: flex;
+        width: 3.1875em;
+        margin-left: 88px !important;
+        height: 1.0625em;
+    }
+    .registracia {
+        position: relative;
+        left: 149px;
+        top: 0px;
+        font-size: 15px;
+    }
+    #dashoreba {
+        /* font-size: 5px !important; */
+        font-size: 12px !important;
+        color: black;
+    }
+    #chamoweva2 {
+        margin-top: 1px;
+        color: black;
+    }
+    .fa-user-o:before {
+        font-size: 14px;
+        content: "\f2c0";
+    }
+    .divnavigacia #dysplaynone {
+        display: none !important;
+    }
+    .navigacia {
+        padding: 9px 0px 0px 0px;
+    }
+    #saatebi {
+        margin-left: -30px;
+        padding-right: 5px;
+        color: black;
+    }
+    #navigacia55 {
+        padding-right: 0px;
+        color: black;
+    }
+    .registracia {
+        position: relative;
+        left: 149px;
+        top: 0px;
+        font-size: 13px;
+    }
+    .ikonkebiregistracia {
+        position: absolute;
+        right: -19px;
+        top: 6px;
+        height: 3.1875em;
+        width: 263px;
+    }
+    .formclass {
+        display: flex;
+        flex-direction: row;
+        margin-left: 15px;
+    }
+}
+
+#saatebi {
+    color: black;
+}
+
+#navigacia55 {
+    color: black;
+}
+
+@media screen and (min-width: 250px) and (max-width: 350px) {
+    .divnavigacia {
+        display: flex;
+        justify-content: space-around;
+        width: 66%;
+        height: 40px;
+        /* margin-right: -219px; */
+        /* position: relative; */
+        /* top: 0px; */
+        /* left: 146px; */
+        margin: 0 auto;
+    }
+    #navigaciis-serchi {
+        border-radius: 10px;
+        margin-top: 5px;
+        height: 15px;
+        width: 63px;
+        height: 11px !important;
+    }
+    .ikonkebi {
+        display: flex;
+        width: 3.1875em;
+        margin-left: 67px;
+        height: 1.0625em;
+    }
+    .navigacia {
+        font-size: 13px;
+    }
+    #chamoweva {
+        margin-top: 6px;
+        color: black;
+    }
+    h4 {
+        height: 0px;
+        margin-top: 0px;
+        animation-name: satauri;
+        animation-duration: 1s;
+        animation-delay: 0.001ms;
+        font-size: 20px;
+    }
+    .ikonkebi {
+        display: flex;
+        width: 3.1875em;
+        margin-left: 88px !important;
+        height: 1.0625em;
+    }
+    .registracia {
+        position: relative;
+        left: 149px;
+        top: 0px;
+        font-size: 15px;
+    }
+    #dashoreba {
+        /* font-size: 5px !important; */
+        font-size: 12px !important;
+        color: black;
+    }
+    #chamoweva2 {
+        margin-top: 1px;
+        color: black;
+    }
+    .fa-user-o:before {
+        font-size: 14px;
+        content: "\f2c0";
+    }
+    .divnavigacia #dysplaynone {
+        display: none !important;
+    }
+    .navigacia {
+        padding: 9px 0px 0px 0px;
+    }
+    #saatebi {
+        margin-left: -30px;
+        padding-right: 5px;
+        color: black;
+    }
+    #navigacia55 {
+        padding-right: 0px;
+        color: black;
+    }
+    .registracia {
+        position: relative;
+        left: 149px;
+        top: 0px;
+        font-size: 13px;
+    }
+    .ikonkebiregistracia {
+        position: absolute;
+        right: -19px;
+        top: 6px;
+        height: 3.1875em;
+        width: 263px;
+    }
+    .formclass {
+        display: flex;
+        flex-direction: row;
+        margin-left: 15px;
+    }
+    #navigacia55 {
+        padding-right: 0px;
+        color: black;
+        margin-left: -34px;
+    }
+}
